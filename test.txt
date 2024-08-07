@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker Information</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .speaker-img {
+            max-width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Speaker Details</h2>
+    <!-- Table with 2 columns -->
+    <table>
+        <tr>
+            <!-- Column 1: Speaker information -->
+            <td>
+                <p><strong>Speaker Name:</strong> John Doe</p>
+                <p><strong>Designation:</strong> Professor</p>
+                <p><strong>Affiliation:</strong> University of Example</p>
+            </td>
+            <!-- Column 2: Speaker picture -->
+            <td>
+                <img src="speaker-image-url.jpg" alt="Speaker Image" class="speaker-img">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
